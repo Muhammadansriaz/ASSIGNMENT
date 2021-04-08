@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body onload="retriev()">
+    <div class="name">
+        NAME :
+        <input id="name" placeholder="ENTER YOUR NAME" type="text">
+    </div>
+    <div class="email">
+        EMAIL :
+        <input id="email" placeholder="ENTER YOUR EMAIL" type="email">
+    </div>
+    <div class="custom-select">
+        CITY :
+        <select id="slect">
+            <option value="FSD">FSD</option>
+            <option value="LHR">LHR</option>
+            <option value="ISB">ISB</option>
+            <option value="KRCHI">KRCHI</option>
+
+        </select>
+        <br>
+        <div class="pic">
+            PICTURE :
+            <input type="file" placeholder="Pic here" id="pic" width ="96px" height="70px">
+        </div>
+        <button id="btn" onclick="Add()">ADD </button>
+        <table id="table">
+
+        </table>
+
+    </div>
+</body> 
+    <script src="app.js"></script> 
+    </html>
+    

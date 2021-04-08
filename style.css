@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    top: 10px;
+}
+.name{
+    position: absolute;
+    top: 3pc;
+    left: 5pc;
+    right: 5pc;
+}
+#btn{
+    width: 100px;
+    position: absolute;
+    top: 3pc;
+    left: 41pc;
+    right: 20pc;
+}
+.update{
+    width: 100px;
+    position: absolute;
+    top: 3pc;
+    left: 41pc;
+    right: 20pc;
+}
+.xzz{
+    width: 100px;
+    position: absolute;
+    top: 30pc;
+    left: 41pc;
+    right: 20pc;
+}
+.custom-select{
+    position: absolute;
+    top: 7pc;
+    left: 6pc;
+    right:5pc;
+}
+.email{
+    position: absolute;
+    top: 5pc;
+    left: 5pc;
+    right:5pc; 
+}
+.pic{
+    position: absolute;
+    top: 2pc;
+    left: 7.2pc;
+    right:5pc; 
+}
+#slect{
+    width: 189px;
+}
+.table{
+    border: 2px solid black;
+    position: absolute;
+    top: 15pc;
+    left: 32pc;
+    right:5pc;
+    padding: 20px;
+}
+.xyz{
+    height: 60px;
+}
+button{
+    text-align: center;
+    background-color:lightgray;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+td{
+    margin: 50px;
+
+}
+.hidden{
+    display: none;
+}
+.img{
+    width: 96px;
+    height: 70px;
+}
+#img{
+    width: 96px;
+    height: 70px;
+}
