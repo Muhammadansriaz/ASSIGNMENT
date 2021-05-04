@@ -45,6 +45,7 @@ function Add() {
       obj.city = city;
       obj.pic = url;
       array.push(obj);
+      console.log(array);
       JSON.parse(localStorage.getItem("Users"));
       window.localStorage.setItem("Users", JSON.stringify(array));
       document.getElementById("name").value = "";
